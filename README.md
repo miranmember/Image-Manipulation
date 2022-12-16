@@ -1,7 +1,2 @@
 # Image-Manipulation-
-Using the PIL library for Python, you can manipulate images.
-You can change the background of an image,
-You can remove a certain color from an image,
-You can mirror the image,
-You can change the color of the whole image,
-You can rotate an image.
+This is a Python program that uses the Pillow library to manipulate images. The program has a class called "ImageSpecial" with several methods that can be applied to an image object. These methods include setting the background color of the image, removing a specific color from the image, mirroring the image horizontally, setting the color of the image to a specific color, and rotating the image by a specified amount. The main function reads in an image file and creates a new image by repeatedly applying the methods of the ImageSpecial class to copies of the original image. The program also includes randomization elements, such as randomly selecting the background color and the method to apply to each copy of the image.
